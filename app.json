@@ -1,0 +1,28 @@
+{
+  "name": "inrl-bot-md",
+  "logo": "",
+  "description": "WhatsApp Bot",
+  "repository": "https://github.com/inrl-official/inrl-bot-md",
+  "keywords": ["bot","whatsapp","whatsapp-bot","multi-divice"],
+  "env": {
+ "SESSION_ID": {
+    "description": "The session ID you Recieved",
+    "required": true
+    }
+},
+"buildpacks": [
+
+  {
+
+      "url": "heroku/nodejs"
+
+  },
+
+  {
+
+      "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest"
+
+  }
+
+]
+}
